@@ -1,0 +1,68 @@
+{
+	"name": "dataflow2",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "Json1",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "SnowflakeTable2",
+						"type": "DatasetReference"
+					},
+					"name": "sink1"
+				}
+			],
+			"transformations": [],
+			"scriptLines": [
+				"source(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false,",
+				"     documentForm: 'documentPerLine') ~> source1",
+				"source1 sink(allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     input(",
+				"          DATE_SAP as string,",
+				"          CALMONTH as string,",
+				"          YEAR as string,",
+				"          QUARTER as string,",
+				"          MONTH as string,",
+				"          WEEK as string,",
+				"          DAY_OF_WEEK as string,",
+				"          CALWEEK as string,",
+				"          YEAR_INT as decimal(38,0),",
+				"          QUARTER_INT as decimal(38,0),",
+				"          MONTH_INT as decimal(38,0),",
+				"          WEEK_INT as decimal(38,0),",
+				"          MONTH_LAST_DAY as decimal(38,0),",
+				"          ZJCPDATE2 as string,",
+				"          ZJCPDATEN as string,",
+				"          ZJCPDATE as string,",
+				"          ZJ445QATR as string,",
+				"          ZJ445WEEK as string,",
+				"          ZJCPDATEN_LY as string,",
+				"          CA_DATE_SAP_LY as string,",
+				"          CA_CALMONTH_LY as string,",
+				"          CA_DATE_SAP_FY as string,",
+				"          CA_CALMONTH_FY as string",
+				"     ),",
+				"     deletable:false,",
+				"     insertable:true,",
+				"     updateable:false,",
+				"     upsertable:false,",
+				"     format: 'table',",
+				"     skipDuplicateMapInputs: true,",
+				"     skipDuplicateMapOutputs: true,",
+				"     stageInsert: true) ~> sink1"
+			]
+		}
+	}
+}

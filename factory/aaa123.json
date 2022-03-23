@@ -1,0 +1,9 @@
+{
+	"name": "aaa123",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "24fdb7a9-4b02-4ea2-b398-866af0ceefae",
+		"tenantId": "9597a8de-db23-4f24-aa9f-2d6ec581fe34"
+	}
+}
