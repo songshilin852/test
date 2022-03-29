@@ -5,7 +5,7 @@
 		"annotations": [],
 		"type": "RestService",
 		"typeProperties": {
-			"url": "https://services.traxretail.com/api/v5/ccjp/entity/user",
+			"url": "https://services.traxretail.com/api/v4/ccjp/entity/store/states?page=0&per_page=200",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous",
 			"authHeaders": {

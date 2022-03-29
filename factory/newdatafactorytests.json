@@ -1,0 +1,9 @@
+{
+	"name": "newdatafactorytests",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "dd95fdc6-5df7-4a0d-a32b-bb0c53751417",
+		"tenantId": "9597a8de-db23-4f24-aa9f-2d6ec581fe34"
+	}
+}

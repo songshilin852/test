@@ -1,0 +1,342 @@
+{
+	"name": "SnowflakeZJMATE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeTable",
+		"schema": [
+			{
+				"name": "ZJMATE",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJMATE___T",
+				"type": "VARCHAR",
+				"precision": 40,
+				"scale": 0
+			},
+			{
+				"name": "0MATL_GROUP",
+				"type": "VARCHAR",
+				"precision": 9,
+				"scale": 0
+			},
+			{
+				"name": "ZJANCD",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJBUDTF",
+				"type": "VARCHAR",
+				"precision": 30,
+				"scale": 0
+			},
+			{
+				"name": "ZJCATCD",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJCATCD___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJCORPDIV",
+				"type": "VARCHAR",
+				"precision": 1,
+				"scale": 0
+			},
+			{
+				"name": "ZJDBRDCD",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJDBRDCD___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDCSCD",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDCSCD___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDCTCD",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDCTCD___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDPKCD",
+				"type": "VARCHAR",
+				"precision": 4,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDPKCD___T",
+				"type": "VARCHAR",
+				"precision": 40,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDSTCD",
+				"type": "VARCHAR",
+				"precision": 1,
+				"scale": 0
+			},
+			{
+				"name": "ZJDDSTCD___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJEJBRAND",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJEJBRAND___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJDPRDGRP",
+				"type": "VARCHAR",
+				"precision": 4,
+				"scale": 0
+			},
+			{
+				"name": "ZJDPRDGRP___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJEJSUBBR",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJEJSUBBR___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJGALCV",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "ZJJANCDC",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRCRPKB",
+				"type": "VARCHAR",
+				"precision": 2,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRHINED",
+				"type": "VARCHAR",
+				"precision": 4,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRIRISU",
+				"type": "VARCHAR",
+				"precision": 2,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRJANCD",
+				"type": "VARCHAR",
+				"precision": 13,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRJMATN",
+				"type": "VARCHAR",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "ZJJRMATNM",
+				"type": "VARCHAR",
+				"precision": 40,
+				"scale": 0
+			},
+			{
+				"name": "ZJMATAGG",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJMATAGSP",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJNEWPRDC",
+				"type": "VARCHAR",
+				"precision": 1,
+				"scale": 0
+			},
+			{
+				"name": "ZJNEWPRDC___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJNUMCS",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "ZJPACKCD",
+				"type": "VARCHAR",
+				"precision": 4,
+				"scale": 0
+			},
+			{
+				"name": "ZJPACKCD___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJRELDT",
+				"type": "VARCHAR",
+				"precision": 8,
+				"scale": 0
+			},
+			{
+				"name": "ZJRPPPKG",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJRPPPKG___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJSBCATCD",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJSBCATCD___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			},
+			{
+				"name": "ZJMATCDZ",
+				"type": "VARCHAR",
+				"precision": 18,
+				"scale": 0
+			},
+			{
+				"name": "ZJMATAGG___T",
+				"type": "VARCHAR",
+				"precision": 40,
+				"scale": 0
+			},
+			{
+				"name": "ZJCORPDIV___T",
+				"type": "VARCHAR",
+				"precision": 40,
+				"scale": 0
+			},
+			{
+				"name": "0MATL_GROUP___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJRPPCTG",
+				"type": "VARCHAR",
+				"precision": 3,
+				"scale": 0
+			},
+			{
+				"name": "ZJRPPCTG___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJMULTPF",
+				"type": "VARCHAR",
+				"precision": 1,
+				"scale": 0
+			},
+			{
+				"name": "ZJMULTPF___T",
+				"type": "VARCHAR",
+				"precision": 20,
+				"scale": 0
+			},
+			{
+				"name": "ZJBEVMNC",
+				"type": "VARCHAR",
+				"precision": 5,
+				"scale": 0
+			},
+			{
+				"name": "ZJBEVMNC___T",
+				"type": "VARCHAR",
+				"precision": 60,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "PUBLIC",
+			"table": "ZJ_DIM_ZJMATE"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
